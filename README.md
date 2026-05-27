@@ -1,12 +1,10 @@
 # DemoQA Automation Framework
 
-Advanced Selenium Java Automation Framework built on DemoQA, 
-covering all advanced Selenium concepts using Page Object Model, 
-TestNG, Maven and WebDriverManager.
+Advanced Selenium Java Automation Framework built on DemoQA
 
 ---
 
-## 🛠️ Tech Stack
+## Tech Stack
 
 | Tool | Version |
 |---|---|
@@ -21,7 +19,7 @@ TestNG, Maven and WebDriverManager.
 ---
 ---
 
-## 🧪 Concepts Covered
+## Concepts Covered
 
 | # | Topic | Implementation |
 |---|---|---|
@@ -38,19 +36,19 @@ TestNG, Maven and WebDriverManager.
 
 ---
 
-## ✅ Test Results
+## Test Results
 
-| Test Class | Tests | Status |
-|---|---|---|
-| ActionsTest | 3 | ✅ All Passing |
-| FramesTest | 4 | ✅ All Passing |
-| WindowsAndAlertsTest | 5 | ✅ All Passing |
-| TestNGAdvancedTest | 4 | ✅ All Passing |
-| GoogleTest | 5 | ✅ All Passing |
+| Test Class | Tests | 
+|---|---|
+| ActionsTest | 3 | 
+| FramesTest | 4 | 
+| WindowsAndAlertsTest | 5 | 
+| TestNGAdvancedTest | 4 | 
+| GoogleTest | 5 | 
 
 ---
 
-## ⚙️ Key Features
+## Key Features
 
 - **Page Object Model** — clean separation of test and page logic
 - **BaseTest** — common setup, teardown, auto screenshot on failure
