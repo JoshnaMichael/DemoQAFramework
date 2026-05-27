@@ -1,0 +1,30 @@
+2026-05-27 15:32:44 [INFO ] BaseTest - ========== TEST STARTING ==========
+2026-05-27 15:32:44 [INFO ] BaseTest - Setting up browser...
+2026-05-27 15:32:46 [INFO ] BaseTest - Browser opened successfully!
+2026-05-27 15:32:46 [INFO ] ActionsTest - Actions and Wait initialized!
+2026-05-27 15:32:46 [INFO ] ActionsTest - Starting testDoubleClick...
+2026-05-27 15:33:04 [INFO ] ActionsTest - testDoubleClick PASSED!
+2026-05-27 15:33:04 [INFO ] BaseTest - TEST PASSED: testDoubleClick
+2026-05-27 15:33:05 [INFO ] BaseTest - Browser closed!
+2026-05-27 15:33:05 [INFO ] BaseTest - ========== TEST FINISHED ==========
+
+2026-05-27 15:33:05 [INFO ] BaseTest - ========== TEST STARTING ==========
+2026-05-27 15:33:05 [INFO ] BaseTest - Setting up browser...
+2026-05-27 15:33:06 [INFO ] BaseTest - Browser opened successfully!
+2026-05-27 15:33:06 [INFO ] ActionsTest - Actions and Wait initialized!
+2026-05-27 15:33:06 [INFO ] ActionsTest - Starting testDragAndDrop...
+2026-05-27 15:33:22 [INFO ] ActionsTest - testDragAndDrop PASSED!
+2026-05-27 15:33:22 [INFO ] BaseTest - TEST PASSED: testDragAndDrop
+2026-05-27 15:33:23 [INFO ] BaseTest - Browser closed!
+2026-05-27 15:33:23 [INFO ] BaseTest - ========== TEST FINISHED ==========
+
+2026-05-27 15:33:23 [INFO ] BaseTest - ========== TEST STARTING ==========
+2026-05-27 15:33:23 [INFO ] BaseTest - Setting up browser...
+2026-05-27 15:33:24 [INFO ] BaseTest - Browser opened successfully!
+2026-05-27 15:33:24 [INFO ] ActionsTest - Actions and Wait initialized!
+2026-05-27 15:33:24 [INFO ] ActionsTest - Starting testRightClick...
+2026-05-27 15:33:40 [INFO ] ActionsTest - testRightClick PASSED!
+2026-05-27 15:33:40 [INFO ] BaseTest - TEST PASSED: testRightClick
+2026-05-27 15:33:41 [INFO ] BaseTest - Browser closed!
+2026-05-27 15:33:41 [INFO ] BaseTest - ========== TEST FINISHED ==========
+

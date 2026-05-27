@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Automation Suite" verbose="1">
+
+    <!-- Listener applies to ALL tests in suite -->
+    <listeners>
+        <listener class-name="com.automation.utils.TestListener"/>
+    </listeners>
+
+    <test name="Locator Extraction">
+        <classes>
+            <class name="com.automation.locators.LocatorExtractor"/>
+        </classes>
+    </test>
+
+    <test name="Google Tests">
+        <classes>
+            <class name="com.automation.tests.GoogleTest">
+                <methods>
+                    <exclude name="failingTest"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="Actions Tests">
+        <classes>
+            <class name="com.automation.tests.ActionsTest"/>
+        </classes>
+    </test>
+
+    <test name="JavaScript Executor Tests">
+        <classes>
+            <class name="com.automation.tests.JavaScriptExecutorTest"/>
+        </classes>
+    </test>
+
+    <test name="Frames Tests">
+        <classes>
+            <class name="com.automation.tests.FramesTest"/>
+        </classes>
+    </test>
+
+    <test name="Windows And Alerts Tests">
+        <classes>
+            <class name="com.automation.tests.WindowsAndAlertsTest"/>
+        </classes>
+    </test>
+
+    <!-- Smoke Tests Only -->
+    <test name="Smoke Tests">
+        <groups>
+            <run>
+                <include name="smoke"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.automation.tests.TestNGAdvancedTest"/>
+        </classes>
+    </test>
+
+    <!-- Regression Tests Only -->
+    <test name="Regression Tests">
+        <groups>
+            <run>
+                <include name="regression"/>
+            </run>
+        </groups>
+        <classes>
+            <class name="com.automation.tests.TestNGAdvancedTest"/>
+        </classes>
+    </test>
+
+</suite>
